@@ -1,8 +1,6 @@
 from application import app
 from flask import render_template, request, redirect, flash, url_for
-
 from bson import ObjectId
-
 from .forms import TodoForm
 from application import db
 from datetime import datetime
